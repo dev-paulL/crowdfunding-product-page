@@ -4,7 +4,7 @@ export default function Header() {
   const headerLinks = ["About", "Discover", "Get Started"];
   return (
     <header className="bg-transparent absolute w-full p-6">
-        <div className="w-full max-w-headerWidth mx-auto flex justify-between">
+        <div className="w-full items-center max-w-headerWidth mx-auto flex justify-between">
       <img src={logo} alt="Crowdfund" />
 
       {/* Desktop Nav */}

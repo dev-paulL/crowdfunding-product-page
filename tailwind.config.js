@@ -16,6 +16,7 @@ export default {
       },
       maxWidth: {
         headerWidth: "81rem",
+        bodyWidth: "56.5rem",
       },
       fontFamily: {
         body: "Commissioner",

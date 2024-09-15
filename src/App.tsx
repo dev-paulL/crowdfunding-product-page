@@ -1,3 +1,4 @@
+import AboutProjectSection from "./components/AboutProjectSection";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MasterCraftSection from "./components/MasterCraftSection";
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <MasterCraftSection />
         <ProjectStatsSection />
+        <AboutProjectSection />
       </main>
     </>
   );

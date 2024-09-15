@@ -9,5 +9,16 @@ body {
 }
 
 .section {
-  @apply w-[90%] gap-6 shadow-md rounded-lg mx-auto bg-white p-8  flex flex-col items-center justify-center text-center;
+  @apply w-[95%] gap-6 shadow-sm rounded-lg border border-darkGray border-opacity-10 mx-auto bg-white p-6  flex flex-col items-center justify-center text-center max-w-bodyWidth;
+}
+
+.section p {
+    @apply text-darkGray text-[1rem]
+}
+
+.rewardBtn {
+    @apply bg-moderateCyan rounded-full text-white font-bold px-8 py-4
+}
+main {
+    @apply flex flex-col gap-8
 }
