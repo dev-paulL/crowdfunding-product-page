@@ -6,8 +6,8 @@ export default function PledgePlans() {
       {pledgePlans.map((plan) => {
         const isAvailable = plan.amountInStock > 0;
         return (
-          <div className={`section !w-full !items-start !text-left !p-4 !shadow-sm ${!isAvailable && "!opacity-55"}`}>
-            <div>
+          <div className={`section !w-full !items-start !text-left !shadow-sm ${!isAvailable && "!opacity-55"}`}>
+            <div className="block lg:flex lg:justify-between w-full">
               <h4 className={`font-bold text-black text-lg`}>{plan.name}</h4>
               <p className={`font-medium ${isAvailable ? "!text-darkCyan" : "!text-moderateCyan"}`}>Pledge ${plan.pledgeAmount} or more</p>
             </div>

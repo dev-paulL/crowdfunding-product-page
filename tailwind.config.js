@@ -15,12 +15,13 @@ export default {
         bold: "700",
       },
       maxWidth: {
-        headerWidth: "81rem",
-        bodyWidth: "56.5rem",
+        headerWidth: "85rem",
+        bodyWidth: "45rem",
       },
       fontFamily: {
         body: "Commissioner",
       },
+
     },
   },
   plugins: [],

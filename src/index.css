@@ -9,7 +9,7 @@ body {
 }
 
 .section {
-  @apply w-[95%] gap-6 shadow-sm rounded-lg border border-darkGray border-opacity-10 mx-auto bg-white p-6  flex flex-col items-center justify-center text-center max-w-bodyWidth;
+  @apply w-[95%] gap-6 shadow-sm rounded-lg border border-darkGray border-opacity-10 mx-auto bg-white p-8  flex flex-col items-center justify-center text-center max-w-bodyWidth;
 }
 
 .section p {
