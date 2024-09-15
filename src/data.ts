@@ -1,3 +1,10 @@
+/* export const projectInfo = {
+  name:'Mastercraft Bamboo Monitor Riser',
+  desc:'A beautifully handcrafted monitor stand to reduce neck and eye strain.',
+  amountAimed:100000,
+  duration:65,
+} */
+
 type pledgePlan = {
     name:"Bamboo Stand" | "Black Edition Stand" | "Mahogany Special Edition",
     pledgeAmount:number,

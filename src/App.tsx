@@ -1,9 +1,17 @@
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import MasterCraftSection from "./components/MasterCraftSection";
+import ProjectStatsSection from "./components/ProjectStatsSection";
+
 function App() {
   return (
     <>
-      <div>
-        <h1>HELLO</h1>
-      </div>
+      <Header />
+      <main>
+        <Hero />
+        <MasterCraftSection />
+        <ProjectStatsSection />
+      </main>
     </>
   );
 }

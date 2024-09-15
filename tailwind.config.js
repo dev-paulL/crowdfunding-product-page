@@ -14,6 +14,12 @@ export default {
         medium: "500",
         bold: "700",
       },
+      maxWidth: {
+        headerWidth: "81rem",
+      },
+      fontFamily: {
+        body: "Commissioner",
+      },
     },
   },
   plugins: [],
