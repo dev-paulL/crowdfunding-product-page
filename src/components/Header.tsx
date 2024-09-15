@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../assets/logo.svg";
 import hamburger from "../assets/icon-hamburger.svg";
 export default function Header() {

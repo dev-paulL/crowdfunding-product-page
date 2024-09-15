@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ProjectStatsSection() {
   return (
     <article className="section">

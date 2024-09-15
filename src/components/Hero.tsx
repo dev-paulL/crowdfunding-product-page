@@ -1,4 +1,3 @@
-import React from 'react'
 import mobileHero from '../assets/image-hero-mobile.jpg';
 
 import desktopHero from '../assets/image-hero-desktop.jpg';
