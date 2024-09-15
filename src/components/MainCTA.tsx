@@ -4,5 +4,5 @@ type MainCTAProps = {
   isDisabled?:boolean;
 };
 export default function MainCTA({ text, extraClass, isDisabled }: MainCTAProps) {
-  return <button disabled={isDisabled} className={`bg-moderateCyan rounded-full text-white font-bold px-8 py-4 ${extraClass}`}>{text}</button>;
+  return <button disabled={isDisabled} className={`hover:bg-darkCyan transition-colors bg-moderateCyan rounded-full text-white font-bold px-8 py-4 ${extraClass}`}>{text}</button>;
 }

@@ -1,9 +1,10 @@
+import ProgressBar from "./ProgressBar";
 import StatsSeparator from "./StatsSeparator";
 
 export default function ProjectStatsSection() {
   return (
     <article className="section lg:p-14 lg:!items-start">
-      <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-12">
+      <div className="flex flex-col lg:flex-row items-center gap-6">
         <h2 className="text-darkGray text-center lg:!text-left">
           <strong className="text-black font-bold text-3xl block">$89,914</strong> of $100,000 backed
         </h2>
@@ -16,9 +17,7 @@ export default function ProjectStatsSection() {
           <strong className="text-black font-bold text-3xl block">56</strong> days left
         </h2>
       </div>
-      <div className="mt-4 w-full h-4 rounded-full bg-darkGray bg-opacity-25 overflow-hidden">
-        <div className="w-[70%] bg-moderateCyan h-full rounded-full"></div>
-      </div>
+      <ProgressBar />
     </article>
   );
 }

@@ -1,14 +1,12 @@
-import validatedIcon from '../assets/icon-check.svg'
-export default function Modal() {
-  return (
-    <div className='fixed w-full h-screen bg-darkGray bg-opacity-10'>
-        <div>
-            <img src={validatedIcon} alt="" />
+import ValidationMessage from "./ValidationMessage";
 
-            <h2>Thanks for your support</h2>
-            <p>Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get an email once our campaign is completed.</p>
-            <button className='rewardBtn'>Got it!</button>
-        </div>
+/* type ModalProps = {
+  reason: "Menu" | "Validation";
+}; */
+export default function Modal(/* { reason }: ModalProps */) {
+  return (
+    <div className="inset-0 fixed w-screen h-screen bg-darkGray bg-opacity-30 z-40">
+      <ValidationMessage />
     </div>
-  )
+  );
 }

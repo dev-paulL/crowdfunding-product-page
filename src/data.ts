@@ -4,6 +4,7 @@
   amountAimed:100000,
   duration:65,
 } */
+export const headerLinks = ["About", "Discover", "Get Started"];
 
 export type pledgePlan = {
     name:"Bamboo Stand" | "Black Edition Stand" | "Mahogany Special Edition",
