@@ -1,4 +1,3 @@
-import React from "react";
 import mastercraftLogo from "../assets/logo-mastercraft.svg";
 import bookmarkIcon from "../assets/icon-bookmark.svg";
 
