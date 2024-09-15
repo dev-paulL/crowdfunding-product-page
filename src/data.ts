@@ -5,7 +5,7 @@
   duration:65,
 } */
 
-type pledgePlan = {
+export type pledgePlan = {
     name:"Bamboo Stand" | "Black Edition Stand" | "Mahogany Special Edition",
     pledgeAmount:number,
     description:string,

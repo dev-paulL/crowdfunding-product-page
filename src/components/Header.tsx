@@ -21,6 +21,7 @@ export default function Header() {
         </ul>
       </nav>
       {/* Mobile Hamburger */}
+      {/* Todo: Aria-expanded = isMenuVisible */}
       <button aria-label="Open Mobile Menu" aria-expanded="false" className="block lg:hidden">
             <img src={hamburger} alt="" />
         </button>
