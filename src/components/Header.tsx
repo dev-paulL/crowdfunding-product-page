@@ -12,6 +12,7 @@ export default function Header() {
   const toggleMenu = () => {
     setIsMenuVisible((visible) => !visible);
   };
+  
   return (
     <header className="bg-transparent absolute w-full p-8">
       <div className="relative w-full items-center max-w-headerWidth mx-auto flex justify-between">
